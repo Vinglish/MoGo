@@ -1,0 +1,48 @@
+@media screen and (max-width:1405px){
+	nav{
+		padding-right: 4px;
+	}
+	header{
+		left:3%;
+	}
+	.welcomeMogo h1{
+		font-size: 80px;
+	}
+	.welcomeMogo h2{
+		font-size: 40px;
+		margin-top: 60px;
+	}
+	#forUs h6{
+		margin-top: 0px;
+	
+
+}
+
+}
+@media screen and (max-width:1180px){
+	.welcomeMogo h1{
+		font-size: 60px;
+}
+	.welcomeMogo h2{
+		font-size: 30px;
+		margin-top: 50px;
+
+}
+#firstSection{
+	height: 80vh;
+
+}
+#Line .blueLine .mini5{
+	width: 20%;
+}
+
+}
+
+@media screen and (max-width:863px){
+	.laptop .telephon{
+
+		top: -390px;
+		left:250px;
+
+	}
+}
