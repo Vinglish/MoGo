@@ -13,7 +13,7 @@
 		margin-top: 60px;
 	}
 	#forUs h6{
-		margin-top: 0px;
+		margin-top: 60px;
 	
 
 }
@@ -28,21 +28,11 @@
 		margin-top: 50px;
 
 }
-#firstSection{
-	height: 80vh;
 
-}
 #Line .blueLine .mini5{
 	width: 20%;
 }
 
+
 }
 
-@media screen and (max-width:863px){
-	.laptop .telephon{
-
-		top: -390px;
-		left:250px;
-
-	}
-}

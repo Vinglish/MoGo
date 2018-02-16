@@ -15,9 +15,9 @@ header h3{
 	}
 #firstSection{
 	background: url(../img/picture.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
 	clear:both;
 	
 }
@@ -67,6 +67,7 @@ ul li a{
 	color: white;
 }
 .welcomeMogo button{
+	margin-bottom: 20px;
 	margin-top: 50px;
 	border: solid white;
     border-radius: 4px;
@@ -263,28 +264,29 @@ ul li a{
 }
 
 #forest .laptop{
-	text-align: center;
+	
 	position: relative;
-	top:8px;
+	bottom:50px;
+	left:470px;
 }
-.laptop .telephon{
+#forest .telephon{
 	position:relative;
-	right: 170px;
-	top: 90px;
+	left: 880px;
+	bottom: 440px; 
 
 }
 
 
-#whatWeDo h6{
+#whoWeAre h6{
 	font-size: 30px;
-  font-family: brush script mt;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 0px;
-  color: rgb(51, 51, 51);
+  	font-family: brush script mt;
+  	text-align: center;
+  	margin-top: 150px;
+  	margin-bottom: 0px;
+  	color: rgb(51, 51, 51);
 
 }
-#whatWeDo h2{
+#whoWeAre h2{
 	font-size: 30px;
 	text-align: center;
 	font-family: Arial black;
@@ -292,7 +294,7 @@ ul li a{
 	margin-top: 8px;
 
 }
-#whatWeDo .line{
+#whoWeAre .line{
 	border:none;
 	background-color: #f38181;
 	height:3px;
@@ -300,12 +302,12 @@ ul li a{
 	margin-top: 30px;
 }
 
-#whatWeDo p{
+#whoWeAre p{
 	text-align: center;
-    margin-top: 40px;
-    color: rgb(153, 153, 153);
-    line-height: 1.6;
-    font-family: corbel;
+	margin-top: 40px;
+	color: rgb(153, 153, 153);
+  	line-height: 1.6;
+  	font-family: corbel;
 }
 
 
