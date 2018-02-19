@@ -226,8 +226,7 @@ ul li a{
 #forest{
 	background: url(../img/forest.png);
 	background-repeat: no-repeat;
-	height: 100vh;
-	position: relative;
+ 	background: cover;
 	margin-top: 70px;
 
 }
@@ -266,13 +265,14 @@ ul li a{
 #forest .laptop{
 	
 	position: relative;
-	bottom:50px;
+	top:7px;
 	left:470px;
 }
 #forest .telephon{
 	position:relative;
-	left: 880px;
-	bottom: 440px; 
+	bottom:385px;
+	left:850px;
+	 
 
 }
 
@@ -281,7 +281,6 @@ ul li a{
 	font-size: 30px;
   	font-family: brush script mt;
   	text-align: center;
-  	margin-top: 150px;
   	margin-bottom: 0px;
   	color: rgb(51, 51, 51);
 
@@ -302,7 +301,7 @@ ul li a{
 	margin-top: 30px;
 }
 
-#whoWeAre p{
+#whoWeAre .Who{
 	text-align: center;
 	margin-top: 40px;
 	color: rgb(153, 153, 153);
@@ -311,3 +310,115 @@ ul li a{
 }
 
 
+#whoWeAre .pictures3{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin-top: 70px;
+}
+#whoWeAre .backgroundWe{
+	background: #95e1d3;
+	margin:10px;
+	position:relative;
+	
+}#whoWeAre .backgroundWe .pict3{
+	position:relative;
+	right:10px;
+	bottom: 5px;
+}
+	
+#whoWeAre .img3{
+	margin:15px;
+}
+
+#whoWeAre .upString{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	
+
+}
+#whoWeAre .too{
+	margin-top: 33px;
+}
+#whoWeAre .downString{
+	text-align: center;
+	color: rgb(153, 153, 153);
+
+}
+#last {
+	margin-top: 70px;
+}
+#Mogo{
+	background: lightgrey;
+}
+#Mogo .firstMogo{
+	display: flex;
+	justify-content: center;
+	
+}
+#Mogo .div3{
+	width:30%;
+	margin: 20px;
+}
+
+
+
+#Mogo .m{
+	font-size: 30px;
+	color: rgb(153, 153, 153);
+	margin-bottom: 25px;
+}
+#Mogo .Lorem{
+	color: rgb(153, 153, 153);
+	margin-top: 50px;
+	
+}
+
+#Mogo .followers{
+	margin-top: 40px;
+
+}
+
+#Mogo .mages1{
+	float: left;
+}
+#Mogo .mages2{
+	float: left;
+	clear:left;
+}
+#Mogo .mages3{
+	float:left;
+	
+}
+#Mogo .string{
+	margin-left: 160px;
+}
+#Mogo .if{
+	margin-top: 35px;
+}
+
+#last .blog{
+	font-size:30px;
+}
+#last .inst{
+	display: flex;
+	flex-wrap: wrap;
+	width:70%;
+}
+
+
+#footer{
+	background: lightgrey;
+	
+}
+
+#footer hr{
+	width: 90%;
+	margin-top: 0px;
+	text-align: center;
+}
+#footer p{
+	text-align: center;
+	padding:10px;
+	margin-bottom: 0px;
+}
