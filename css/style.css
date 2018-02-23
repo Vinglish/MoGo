@@ -3,9 +3,7 @@ body{
 	max-width: 2000px;
 }
 header{
-	position: absolute;
-	left:15%;
-	
+	margin-left:15%;
 }
 header h3{
 	color: white;
@@ -21,16 +19,21 @@ header h3{
 	clear:both;
 	
 }
+.nav{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 
-
+}
 nav{
 	padding-right: 280px;
 	margin: 0;
 }
 nav ul{
 	display: flex;
-	float: right;
+	
 	list-style: none;
+	flex-wrap: wrap;
 
 }
 ul li{
@@ -193,6 +196,7 @@ ul li a{
 #amazingServices .menu{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	margin: 35px;
 
 
@@ -270,8 +274,8 @@ ul li a{
 }
 #forest .telephon{
 	position:relative;
-	bottom:385px;
-	left:850px;
+	top:100px;
+	left:300px;
 	 
 
 }

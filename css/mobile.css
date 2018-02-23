@@ -1,4 +1,4 @@
-@media screen and (max-width:1405px){
+@media screen and (max-width:1265px){
 	nav{
 		padding-right: 4px;
 	}
@@ -32,7 +32,113 @@
 #Line .blueLine .mini5{
 	width: 20%;
 }
+#forest{
+	display: none;
+}
 
 
 }
 
+@media screen and (max-width:400px){
+	header{
+		margin-left: 38%;
+	}
+	
+}
+@media screen and (max-width:630px){
+	#Line .blueLine .mini5{
+		height:150px;
+	}
+	#Line .blueLine .mini5 span{
+		font-size: 40px;
+	}
+	#Line .blueLine .mini5 p{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width:370px){
+	#Line .blueLine .mini5{
+		height:143px;
+	}
+	#Line .blueLine .mini5 span{
+		font-size: 25px;
+	}
+	#Line .blueLine .mini5 p{
+		font-size: 15px;
+	}
+	ul li a{
+		font-size: 15px;
+	}
+	.welcomeMogo h2{
+		margin-top:25px;
+		font-size: 25px;
+	}
+	.welcomeMogo h1{
+		font-size:45px;
+	}
+	#forUs h2{
+		font-size: 25px;
+	}
+	#amazingServices h2{
+		font-size: 25px;
+	}
+	#whoWeAre h2{
+		font-size: 25px;
+	}
+
+}
+@media screen and (max-width:430px){
+	#forUs .background{
+		width:90%;
+	}
+	#forUs .background .pict1{
+		width: 100%;
+	}
+	#forUs .img2{
+		width: 90%;
+	}
+	#whoWeAre .backgroundWe{
+		width:90%;
+	}
+	#whoWeAre .backgroundWe .pict3{
+		width: 100%;
+	}
+	#whoWeAre .img3{
+		width:90%;
+	}
+	#whoWeAre .upString{
+		font-size: 15px;
+	}
+	#whoWeAre .downString{
+		font-size: 15px;
+	}
+
+}
+@media screen and (max-width:1000px){
+	#Mogo .firstMogo{
+		flex-direction: column;
+	}
+	#Mogo .div3{
+		width:80%;
+	}
+	#Mogo .mages1{
+		float:none;
+	}
+	#Mogo .string {
+		margin-left: 0px;
+	}
+	#Mogo .mages2{
+		float:none;
+	}
+	#Mogo .mages3{
+		float:none;
+	}
+	#last .inst{
+		width: 110%;
+	}
+}
+@media screen and (max-width:800px){
+	header h3{
+		display: none;
+	}
+}
